@@ -32,11 +32,11 @@ def recognize_gesture(hand_landmarks):
 
     # Gesture Conditions
     if thumb_extended and not (index_extended or middle_extended or ring_extended or pinky_extended):
-        return "Thumbs Up 👍"
+        return "Thumbs Up "
     elif index_extended and middle_extended and not (ring_extended or pinky_extended):
-        return "Victory ✌️"
+        return "Victory "
     elif all([index_extended, middle_extended, ring_extended, pinky_extended]):
-        return "Open Palm 🖐️"
+        return "Open Palm "
     
     return "Unknown Gesture"
 
