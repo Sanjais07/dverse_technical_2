@@ -67,7 +67,6 @@ This project is a **real-time hand gesture recognition system** that uses **Open
 - Improve accuracy with deep learning models.
 - Support **mobile** as well.
 
-##  License
-The project is licensed under the **MIT License**; feel free to modify and make improvements from there!
+
 
 
