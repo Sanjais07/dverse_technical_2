@@ -53,7 +53,7 @@ This project is a **real-time hand gesture recognition system** that uses **Open
 2. A webcam window will pop up, which will detect your hand and recognize gestures.
 3. Press the key **'q'** to exit.
 
-## 🔬 How It Works
+##  How It Works
 1. Captures frames from a **webcam.**
 2. **Converts frames from BGR to RGB** for processing through **MediaPipe Hands**. 
 3. Detects **hand landmarks** and infers the **positions of fingers**.
